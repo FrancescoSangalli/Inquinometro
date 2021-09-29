@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello { color: purple; }
+
+.navbar { width: 100%; }
+
+.navbar-brand {
+  font-family: 'Expletus Sans', sans-serif;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #000;
+  color: #000 !important;
+}
+
+.time {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width: 993px) {
+  .nav-link:hover {
+    border-bottom: none;
+  }
+}
+
+#search {
+  /*height: 100vh;*/
+  width: 60%;
+  margin-top: 100px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title { margin-bottom: 60px; }
+
+.geolocation {
+  cursor: pointer;
+}
+.geolocation:hover { text-decoration: underline; }
+.err-data { color: red; }
+
+.info {
+  visibility: hidden;
+  margin: 100px auto;
+  height: 100vh;
+}
+
+.card-title1 {
+  font-size: 16px;
+  color: #0000FF;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card-title2 {
+  align-self: center;
+  border-radius: 10px;
+  padding: 15px 40px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.loc-data {
+  margin-top: 30px;
+}
+
+.min { color: blue; }
+.max { color: red; }
+
+@media (max-width: 685px) {
+  .card-title2 { font-size: 32px; }
+}
+
+@media (max-width: 534px) {
+  #search { width: 80%; }
+  .loc-data { font-size: 12px; }
+}
+
+@media (max-width: 497px) {
+  .card-title1 {
+    font-size: 14px;
+  }
+
+  .card-title2 {
+    padding: 5px 20px;
+  }
+
+  .card-title2,
+  .card-title3 {
+    font-size: 22px;
+  }
+
+  .card-date,
+  .card-temp {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 345px) {
+  #search { width: 100%; }
+}
+
+.table-val {
+  text-align: center;
+}
+
+.table-title {
+  margin-top: 100px;
+}
+
+.table-hover {
+  margin: 100px auto;
+  width: 90%;
+  /*border: 1px solid #000;*/
+}
+
+.footer {
+  width: 100%;
+}
+
+.button-form:hover {
+  transform: scale(1.1);
+}
+
+.social {
+  color: #000;
+}
+
+.stations {
+  border: 1px solid #cccccc;
+  box-shadow: 1px 2px #cccccc;
+  border-top: none;
+  border-radius: 4px;
+  visibility: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}

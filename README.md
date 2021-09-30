@@ -39,5 +39,5 @@ Cliccando sull'apposito elemento è possibile vedere i livelli di inquinamento d
 
 Francesco Sangalli - <https://github.com/FrancescoSangalli>
 
-Progetto: <https://github.com/FrancescoSangalli/Inquinometro>__
+Progetto: <https://github.com/FrancescoSangalli/Inquinometro>\
           <https://inquinometro.netlify.app>

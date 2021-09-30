@@ -12,7 +12,7 @@
 
 ## Descrizione
 
-Applicativo che permette di visualizzare il livello di inquinamento dell'aria.
+Applicativo che permette di visualizzare il livello di inquinamento dell'aria appoggiandosi ad API esterne.
 
 #### Strumenti
 
